@@ -1,6 +1,8 @@
 /*---------------------
   Blog
 -----------------------*/
+
+@use 'variable';
 .blog__item {
     margin-bottom: 60px;
 }
@@ -36,7 +38,7 @@
 
         a {
             font-size: 20px;
-            color: $normal-color;
+            color: variable.$normal-color;
             font-weight: 700;
         }
     }
@@ -48,7 +50,7 @@
     .blog__btn {
         display: inline-block;
         font-size: 14px;
-        color: $normal-color;
+        color: variable.$normal-color;
         text-transform: uppercase;
         letter-spacing: 1px;
         border: 1px solid #b2b2b2;
@@ -64,7 +66,7 @@
 }
 
 .blog__pagination {
-    @extend .product__pagination;
+    @extend .product__pagination !optional;
     padding-top: 5px;
     position: relative;
 
@@ -74,7 +76,7 @@
         top: -29px;
         height: 1px;
         width: 100%;
-        background: $black-color;
+        background: variable.$black-color;
         opacity: .1;
         content: '';
     }

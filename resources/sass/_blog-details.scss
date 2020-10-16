@@ -1,6 +1,8 @@
 /*---------------------
   Blog Details Hero
 -----------------------*/
+@use 'variable';
+@use 'mixins';
 .blog-details-hero {
     height: 350px;
     display: flex;
@@ -12,7 +14,7 @@
 
     h2 {
         font-size: 46px;
-        color: $white-color;
+        color: variable.$white-color;
         font-weight: 700;
         margin-bottom: 10px;
     }
@@ -21,7 +23,7 @@
 
         li {
             font-size: 16px;
-            color: $white-color;
+            color: variable.$white-color;
             list-style: none;
             display: inline-block;
             margin-right: 45px;
@@ -98,13 +100,13 @@
     padding-top: 30px;
 
     h6 {
-        color: $normal-color;
+        color: variable.$normal-color;
         font-weight: 700;
     }
 
     span {
         font-size: 16px;
-        color: $para-color;
+        color: variable.$para-color;
     }
 }
 
@@ -115,12 +117,12 @@
 
         li {
             font-size: 16px;
-            color: $para-color;
+            color: variable.$para-color;
             list-style: none;
             line-height: 30px;
 
             span {
-                color: $normal-color;
+                color: variable.$normal-color;
                 font-weight: 700;
             }
         }
@@ -131,12 +133,12 @@
         a {
             display: inline-block;
             font-size: 20px;
-            color: $para-color;
+            color: variable.$para-color;
             margin-right: 24px;
-            @include transition(all, .3s);
+            @include mixins.transition(all, .3s);
 
             &:hover {
-                color: $primary-color;
+                color: variable.$primary-color;
             }
 
             &:last-child {
