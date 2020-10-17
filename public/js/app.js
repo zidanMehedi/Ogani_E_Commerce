@@ -19388,6 +19388,17 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/_blog-sidebar.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/_blog-sidebar.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/_blog.scss":
 /*!***********************************!*\
   !*** ./resources/sass/_blog.scss ***!
@@ -19399,10 +19410,142 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/_breadcrumb.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/_breadcrumb.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_checkout.scss":
+/*!***************************************!*\
+  !*** ./resources/sass/_checkout.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_contact.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/_contact.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_footer.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/_footer.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_header.scss":
+/*!*************************************!*\
+  !*** ./resources/sass/_header.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_hero.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/_hero.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_home-page.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/_home-page.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/_mixins.scss":
 /*!*************************************!*\
   !*** ./resources/sass/_mixins.scss ***!
   \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_responsive.scss":
+/*!*****************************************!*\
+  !*** ./resources/sass/_responsive.scss ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_shop-details.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/_shop-details.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_shop-grid.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/_shop-grid.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_shoping-cart.scss":
+/*!*******************************************!*\
+  !*** ./resources/sass/_shoping-cart.scss ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/_sidebar.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/_sidebar.scss ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19444,9 +19587,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ }),
 
 /***/ 0:
-/*!***************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/_base.scss ./resources/sass/_blog.scss ./resources/sass/_blog-details.scss ./resources/sass/_mixins.scss ./resources/sass/_variable.scss ./resources/sass/style.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************************/
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/_base.scss ./resources/sass/_blog.scss ./resources/sass/_blog-details.scss ./resources/sass/_blog-sidebar.scss ./resources/sass/_breadcrumb.scss ./resources/sass/_checkout.scss ./resources/sass/_contact.scss ./resources/sass/_footer.scss ./resources/sass/_header.scss ./resources/sass/_hero.scss ./resources/sass/_home-page.scss ./resources/sass/_mixins.scss ./resources/sass/_responsive.scss ./resources/sass/_shop-details.scss ./resources/sass/_shop-grid.scss ./resources/sass/_shoping-cart.scss ./resources/sass/_sidebar.scss ./resources/sass/_variable.scss ./resources/sass/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19455,7 +19598,20 @@ __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\app.scss */"./resou
 __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_base.scss */"./resources/sass/_base.scss");
 __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_blog.scss */"./resources/sass/_blog.scss");
 __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_blog-details.scss */"./resources/sass/_blog-details.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_blog-sidebar.scss */"./resources/sass/_blog-sidebar.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_breadcrumb.scss */"./resources/sass/_breadcrumb.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_checkout.scss */"./resources/sass/_checkout.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_contact.scss */"./resources/sass/_contact.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_footer.scss */"./resources/sass/_footer.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_header.scss */"./resources/sass/_header.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_hero.scss */"./resources/sass/_hero.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_home-page.scss */"./resources/sass/_home-page.scss");
 __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_mixins.scss */"./resources/sass/_mixins.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_responsive.scss */"./resources/sass/_responsive.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_shop-details.scss */"./resources/sass/_shop-details.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_shop-grid.scss */"./resources/sass/_shop-grid.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_shoping-cart.scss */"./resources/sass/_shoping-cart.scss");
+__webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_sidebar.scss */"./resources/sass/_sidebar.scss");
 __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\_variable.scss */"./resources/sass/_variable.scss");
 module.exports = __webpack_require__(/*! C:\xampp\htdocs\Ogani\resources\sass\style.scss */"./resources/sass/style.scss");
 

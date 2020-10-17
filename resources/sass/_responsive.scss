@@ -1,5 +1,8 @@
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 
+@use 'variable';
+@use 'mixins';
+
 @media only screen and (min-width: 1200px) {
     .container {
       max-width: 1170px;
@@ -109,7 +112,7 @@
   
     .humberger__menu__wrapper {
       width: 300px;
-      background: $white-color;
+      background: variable.$white-color;
       position: fixed;
       left: -300px;
       top: 0;
@@ -120,7 +123,7 @@
       padding-top: 50px;
       opacity: 0;
       display: block;
-      @include transition(all, .6s);
+      @include mixins.transition(all, .6s);
   
       &.show__humberger__menu__wrapper {
         opacity: 1;
@@ -149,7 +152,7 @@
           list-style: none;
   
           i {
-            color: $heading-color-2;
+            color: variable.$heading-color-2;
             margin-right: 5px;
           }
         }
@@ -176,15 +179,15 @@
   
             i {
               font-size: 18px;
-              color: $normal-color;
+              color: variable.$normal-color;
             }
   
             span {
               height: 13px;
               width: 13px;
-              background: $primary-color;
+              background: variable.$primary-color;
               font-size: 10px;
-              color: $white-color;
+              color: variable.$white-color;
               line-height: 13px;
               text-align: center;
               font-weight: 700;
@@ -204,7 +207,7 @@
         display: inline-block;
   
         span {
-          color: $heading-color-2;
+          color: variable.$heading-color-2;
           font-weight: 700;
         }
       }
@@ -257,7 +260,7 @@
       }
   
       .slicknav_nav a {
-        color: $normal-color;
+        color: variable.$normal-color;
         font-size: 16px;
         font-weight: 600;
         margin: 0;
@@ -268,7 +271,7 @@
         -webkit-border-radius: 0;
         border-radius: 0;
         background: transparent;
-        color: $primary-color;
+        color: variable.$primary-color;
       }
   
       .slicknav_nav .slicknav_row,
@@ -287,7 +290,7 @@
       content: '';
       z-index: 98;
       visibility: hidden;
-      @include transition(all, .6s);
+      @include mixins.transition(all, .6s);
   
       &.active {
         visibility: visible;
@@ -425,7 +428,7 @@
   
     .humberger__menu__wrapper {
       width: 300px;
-      background: $white-color;
+      background: variable.$white-color;
       position: fixed;
       left: -300px;
       top: 0;
@@ -436,7 +439,7 @@
       padding-top: 50px;
       opacity: 0;
       display: block;
-      @include transition(all, .6s);
+      @include mixins.transition(all, .6s);
   
       &.show__humberger__menu__wrapper {
         opacity: 1;
@@ -465,7 +468,7 @@
           list-style: none;
   
           i {
-            color: $heading-color-2;
+            color: variable.$heading-color-2;
             margin-right: 5px;
           }
         }
@@ -492,15 +495,15 @@
   
             i {
               font-size: 18px;
-              color: $normal-color;
+              color: variable.$normal-color;
             }
   
             span {
               height: 13px;
               width: 13px;
-              background: $primary-color;
+              background: variable.$primary-color;
               font-size: 10px;
-              color: $white-color;
+              color: variable.$white-color;
               line-height: 13px;
               text-align: center;
               font-weight: 700;
@@ -520,7 +523,7 @@
         display: inline-block;
   
         span {
-          color: $heading-color-2;
+          color: variable.$heading-color-2;
           font-weight: 700;
         }
       }
@@ -573,7 +576,7 @@
       }
   
       .slicknav_nav a {
-        color: $normal-color;
+        color: variable.$normal-color;
         font-size: 16px;
         font-weight: 600;
         margin: 0;
@@ -584,7 +587,7 @@
         -webkit-border-radius: 0;
         border-radius: 0;
         background: transparent;
-        color: $primary-color;
+        color: variable.$primary-color;
       }
   
       .slicknav_nav .slicknav_row,
@@ -603,7 +606,7 @@
       content: '';
       z-index: 98;
       visibility: hidden;
-      @include transition(all, .6s);
+      @include mixins.transition(all, .6s);
   
       &.active {
         visibility: visible;

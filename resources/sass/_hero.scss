@@ -1,6 +1,10 @@
 /*---------------------
   Hero
 -----------------------*/
+
+@use 'variable';
+@use 'mixins';
+
 .hero {
     padding-bottom: 50px;
 
@@ -16,7 +20,7 @@
                 top: 46px;
                 width: 100%;
                 z-index: 9;
-                background: $white-color;
+                background: variable.$white-color;
             }
         }
 
@@ -27,21 +31,21 @@
 }
 
 .hero__categories__all {
-    background: $primary-color;
+    background: variable.$primary-color;
     position: relative;
     padding: 10px 25px 10px 40px;
     cursor: pointer;
 
     i {
         font-size: 16px;
-        color: $white-color;
+        color: variable.$white-color;
         margin-right: 10px;
     }
 
     span {
         font-size: 18px;
         font-weight: 700;
-        color: $white-color;
+        color: variable.$white-color;
     }
 
     &:after {
@@ -51,14 +55,14 @@
         content: '\33';
         font-family: 'ElegantIcons';
         font-size: 18px;
-        color: $white-color;
+        color: variable.$white-color;
     }
 }
 
 .hero__categories {
 
     ul {
-        border: 1px solid $border;
+        border: 1px solid variable.$border;
         padding-left: 40px;
         padding-top: 10px;
         padding-bottom: 12px;
@@ -68,7 +72,7 @@
 
             a {
                 font-size: 16px;
-                color: $normal-color;
+                color: variable.$normal-color;
                 line-height: 39px;
                 display: block;
             }
@@ -84,7 +88,7 @@
 .hero__search__form {
     width: 610px;
     height: 50px;
-    border: 1px solid $border;
+    border: 1px solid variable.$border;
     position: relative;
     float: left;
 
@@ -94,7 +98,7 @@
             width: 30%;
             float: left;
             font-size: 16px;
-            color: $normal-color;
+            color: variable.$normal-color;
             font-weight: 700;
             padding-left: 18px;
             padding-top: 11px;
@@ -106,7 +110,7 @@
                 top: 14px;
                 height: 20px;
                 width: 1px;
-                background: $black-color;
+                background: variable.$black-color;
                 opacity: .1;
                 content: "";
             }
@@ -146,10 +150,10 @@
 
 .hero__search__phone__icon {
     font-size: 18px;
-    color: $primary-color;
+    color: variable.$primary-color;
     height: 50px;
     width: 50px;
-    background: $background;
+    background: variable.$background;
     line-height: 50px;
     text-align: center;
     border-radius: 50%;
@@ -161,14 +165,14 @@
     overflow: hidden;
 
     h5 {
-        color: $normal-color;
+        color: variable.$normal-color;
         font-weight: 700;
         margin-bottom: 5px;
     }
 
     span {
         font-size: 14px;
-        color: $para-color;
+        color: variable.$para-color;
     }
 }
 
@@ -186,12 +190,12 @@
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 4px;
-        color: $primary-color;
+        color: variable.$primary-color;
     }
 
     h2 {
         font-size: 46px;
-        color: $heading-color-2;
+        color: variable.$heading-color-2;
         line-height: 52px;
         font-weight: 700;
         margin: 10px 0;

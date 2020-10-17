@@ -1,6 +1,8 @@
 /*---------------------
   Breadcrumb
 -----------------------*/
+@use 'variable';
+@use 'mixins';
 .breadcrumb-section {
     display: flex;
     align-items: center;
@@ -11,7 +13,7 @@
 
     h2 {
         font-size: 46px;
-        color: $white-color;
+        color: variable.$white-color;
         font-weight: 700;
     }
 }
@@ -21,7 +23,7 @@
     a {
         display: inline-block;
         font-size: 16px;
-        color: $white-color;
+        color: variable.$white-color;
         font-weight: 700;
         margin-right: 20px;
         position: relative;
@@ -32,7 +34,7 @@
             top: 13px;
             height: 1px;
             width: 10px;
-            background: $white-color;
+            background: variable.$white-color;
             content: '';
         }
     }
@@ -40,6 +42,6 @@
     span {
         display: inline-block;
         font-size: 16px;
-        color: $white-color;
+        color: variable.$white-color;
     }
 }

@@ -1,6 +1,9 @@
 /*---------------------
   Shop Details
 -----------------------*/
+
+@use 'variable';
+@use 'mixins';
 .product-details {
     padding-top: 80px;
 }
@@ -27,7 +30,7 @@
 .product__details__text {
 
     h3 {
-        color: $heading-color-2;
+        color: variable.$heading-color-2;
         font-weight: 700;
         margin-bottom: 16px;
     }
@@ -67,19 +70,19 @@
     .heart-icon {
         display: inline-block;
         font-size: 16px;
-        color: $para-color;
+        color: variable.$para-color;
         padding: 13px 16px 13px;
-        background: $background;
+        background: variable.$background;
     }
 
     ul {
-        border-top: 1px solid $border;
+        border-top: 1px solid variable.$border;
         padding-top: 40px;
         margin-top: 50px;
 
         li {
             font-size: 16px;
-            color: $normal-color;
+            color: variable.$normal-color;
             list-style: none;
             line-height: 36px;
 
@@ -102,7 +105,7 @@
                 a {
                     display: inline-block;
                     font-size: 15px;
-                    color: $normal-color;
+                    color: variable.$normal-color;
                     margin-right: 25px;
 
                     &:last-child {
@@ -125,24 +128,24 @@
     display: inline-block;
     position: relative;
     text-align: center;
-    background: $background;
+    background: variable.$background;
     margin-bottom: 5px;
 
     input {
         height: 100%;
         width: 100%;
         font-size: 16px;
-        color: $para-color;
+        color: variable.$para-color;
         width: 50px;
         border: none;
-        background: $background;
+        background: variable.$background;
         text-align: center;
     }
 
     .qtybtn {
         width: 35px;
         font-size: 16px;
-        color: $para-color;
+        color: variable.$para-color;
         cursor: pointer;
         display: inline-block;
     }
@@ -162,7 +165,7 @@
             top: 12px;
             height: 1px;
             width: 370px;
-            background: $border;
+            background: variable.$border;
             content: '';
         }
 
@@ -172,7 +175,7 @@
             top: 12px;
             height: 1px;
             width: 370px;
-            background: $border;
+            background: variable.$border;
             content: '';
         }
 
